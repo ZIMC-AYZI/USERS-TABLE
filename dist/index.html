@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Source IT</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="/main.d4190f58.css">
+    <link rel="stylesheet" href="/reset.8f26026f.css">
+    <link rel="stylesheet" href="/fonts.6acb6a6c.css">
+  <script src="/main.d4190f58.js"></script><script src="/reset.8f26026f.js"></script><script src="/fonts.6acb6a6c.js"></script></head>
+  <body>
+    <button class="add-user">Add new user</button>
+    <div class="wrapper">
+      <table class="user-item">
+        <thead>
+          <tr>
+            <th><span>Name</span><button class="sort-name">sort</button></th>
+            <th><span>Email</span><button class="sort-email">sort</button></th>
+            <th>
+              <span>Username</span><button class="sort-username">sort</button>
+            </th>
+            <th>
+              <span>website</span><button class="sort-website">sort</button>
+            </th>
+            <th><span>Action</span></th>
+          </tr>
+        </thead>
+        <tbody id="table-body" class="table-body"></tbody>
+        </table></div>
+      
+      <div class="modal" id="info-modal">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+        </div>
+      </div>
+      <div class="modal" id="add-modal">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <form class="add-user-form">
+            <div class="input-wrapper">
+              <input required="" type="text" name="name" placeholder="Name">
+            </div>
+            <div class="input-wrapper">
+              <input required="" type="text" name="username" placeholder="Username">
+            </div>
+            <div class="input-wrapper">
+              <input required="" type="text" name="email" placeholder="Email">
+            </div>
+            <div class="input-wrapper">
+              <input required="" type="text" name="website" placeholder="Website">
+            </div>
+            <div class="input-wrapper">
+              <input required="" type="text" name="address.street" placeholder="street">
+            </div>
+            <div class="input-wrapper">
+              <input required="" type="text" name="address.city" placeholder="city">
+            </div>
+            <div class="input-wrapper">
+              <input required="" type="text" name="address.zipcode" placeholder="Zipcode">
+            </div>
+            <div>
+              <button class="save" type="submit">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    
+    <script src="/main.fb6bbcaf.js"></script>
+  </body>
+</html>
